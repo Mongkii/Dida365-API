@@ -1,0 +1,35 @@
+{
+  "name": "dida365-api",
+  "version": "1.0.0",
+  "description": "An API based on Dida365 Web",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mongkii/Dida365-API.git"
+  },
+  "keywords": [
+    "dida365",
+    "dida",
+    "api",
+    "todo",
+    "automatic"
+  ],
+  "author": "Mongkii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mongkii/Dida365-API/issues"
+  },
+  "homepage": "https://github.com/Mongkii/Dida365-API#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "axios": "^0.21.4"
+  }
+}
