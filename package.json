@@ -4,7 +4,9 @@
   "description": "An API based on Dida365 Web",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build && npm run test"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
     "dist"
   ],
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "jest": "^27.1.1",
     "typescript": "^4.4.2"
   },
   "peerDependencies": {
